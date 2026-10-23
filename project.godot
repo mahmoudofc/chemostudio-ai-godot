@@ -1,0 +1,15 @@
+; Godot 4 project file — makes godot/ openable as a project so the
+; ChemoStudio Tools add-on loads and auto-enables in the editor.
+; Open with: Godot 4 → Import → this folder (project.godot).
+
+config_version=5
+
+[application]
+
+config/name="ChemoStudio Godot Tools"
+config/description="Editor add-on workspace for ChemoStudio AI tooling."
+config/features=PackedStringArray("4.2")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/chemstudio_tools/plugin.cfg")
